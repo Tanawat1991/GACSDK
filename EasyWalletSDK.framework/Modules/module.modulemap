@@ -1,0 +1,11 @@
+framework module EasyWalletSDK {
+  umbrella header "EasyWalletSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module EasyWalletSDK.Swift {
+  header "EasyWalletSDK-Swift.h"
+  requires objc
+}
